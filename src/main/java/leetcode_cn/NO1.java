@@ -15,7 +15,7 @@ import java.util.Map;
  * 所以返回 [0, 1]
  */
 public class NO1 {
-    public int[] twoSum(int[] nums, int target) {
+    private int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
