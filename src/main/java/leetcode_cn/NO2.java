@@ -2,10 +2,6 @@ package leetcode_cn;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 2. 两数相加
  * 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -78,3 +74,7 @@ public class NO2 {
         }
     }
 }
+/**
+ * 说明：
+ * 这道题目是“链表”的题目，链表的题目经常就是按照实际情况一步一步来，代码可以按照画图来一步一步写出来即可。
+ */
