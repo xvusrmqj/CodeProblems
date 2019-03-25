@@ -13,6 +13,8 @@ import java.util.Arrays;
  * @author lv
  */
 public class 寻找第K大 {
+	// 这个用的排序的方法，有其它的方法比这个时间复杂度更低。
+	// O(nlogn)
 	public static int findKth(int[] a, int n, int K) {
     	Arrays.sort(a);
     	int count = 0;
