@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * 反转单词。
+ */
 public class ReverseWords {
 
 	public static void main(String[] args) throws IOException {
